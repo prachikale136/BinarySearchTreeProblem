@@ -13,8 +13,17 @@ namespace BinarySearch
             BinarySearchTree<int> binarySearchTree = new BinarySearchTree<int>(56);
             binarySearchTree.Insert(70);
             binarySearchTree.Insert(30);
+            binarySearchTree.Insert(40);
+            binarySearchTree.Insert(50);
+            binarySearchTree.Insert(60);
+            binarySearchTree.Insert(52);
+            binarySearchTree.Insert(5);
+            binarySearchTree.Insert(42);
+            binarySearchTree.Insert(43);
+            binarySearchTree.Insert(55);
             Console.WriteLine("Binary Search Tree -");
             binarySearchTree.Display();
+            binarySearchTree.Size();
           
         }
     }

@@ -12,7 +12,7 @@ namespace BinarySearch
         //property For Left tree and right tree
         public BinarySearchTree<T> leftNode { get; set; }
         public BinarySearchTree<T> rightNode { get; set; }
-       
+       bool result = false;
 
         public BinarySearchTree(T NodeData)
         {
@@ -53,6 +53,10 @@ namespace BinarySearch
                 this.rightCount++;
                 this.rightNode.Display();
             }
+        }
+        public void Size()
+        {
+            Console.WriteLine("Size of Binary Serach Tree " + (1 + leftCount + rightCount));
         }
     }
 }
